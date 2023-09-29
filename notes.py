@@ -10,3 +10,4 @@ for x in range (width):
     if image [y][x] != 0 or image [y][x] != 255:
       image [y][x] = 255
     
+new_image = cv2.imwrite("new_notes.png", image)
