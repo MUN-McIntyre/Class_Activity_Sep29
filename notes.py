@@ -6,10 +6,10 @@ import numpy as np
 image = cv2.imread("notes.png", cv2.IMREAD_GRAYSCALE)
 height, width = image.shape[0], image.shape[1]
 white = list()
-for i in range(195, 255):
+for i in range(205, 255):
   white.append(i)
 black = list()
-for i in range(-1, 60):
+for i in range(-1, 40):
   black.append(i)  
 for x in range (width):
   for y in range (height):
