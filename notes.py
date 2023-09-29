@@ -2,7 +2,7 @@ import os
 import cv2
 import math
 import numpy as np
-from matplotlib import pylot as plt
+from matplotlib import pyplot as plt
 
 image = cv2.imread("notes.png", cv2.IMREAD_GRAYSCALE)
 height, width = image.shape[0], image.shape[1]
